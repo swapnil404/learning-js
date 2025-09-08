@@ -1,6 +1,7 @@
 function otp(digits) {
   let otp = Math.random();
-  otp = otp * (digits - 2) ** 10;
+  console.log(otp);
+  otp = otp * 10 ** digits;
   return Math.floor(otp);
 }
 console.log(otp(6));
