@@ -2,6 +2,7 @@ function isPangram(sentence, letters) {
   sentence = sentence.replaceAll(" ", "");
   sentence = sentence.replace(/\W/g, "");
   var arSentence = sentence.split("");
+  console.log(arSentence);
   var arLetters = letters.split("");
   arSentence = arSentence.map((x) => x.toLowerCase());
   for (var i = 0; i < arLetters.length; i++) {
