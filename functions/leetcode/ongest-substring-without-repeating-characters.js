@@ -1,4 +1,5 @@
 /** * @param {string} s * @return {number} */
+// this version has O(n^3) time complexity,for better optimised version see functions/longest-substring-without-repeating-characters-optimized.js
 var lengthOfLongestSubstring = function (s) {
   let number = 0;
   if (s.length == 1) {
